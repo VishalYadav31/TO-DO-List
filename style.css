@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:ghostwhite;
+    border: 2px solid black; /* Added style and color to the border */
+    border-radius: 15px;
+    box-shadow: 5px 15px 15px #c5c5c5;
+
+    height: 50vh; /* Changed height to 100% of the viewport height */
+    width: 70vh;
+}
+
+h1{
+font-family:fantasy;
+margin-top: 30px;
+}
+
+
+#list{
+    list-style: none;   
+}
+
